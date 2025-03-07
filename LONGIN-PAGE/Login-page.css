@@ -1,0 +1,301 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 2000PX;
+}
+
+header{
+display:flex;
+flex-direction: row;
+background-color: rgb(0, 0, 0);
+height:110px ;
+width:100%;
+justify-content: center;
+position: fixed;
+margin-top: -7px;
+}
+
+.head-cont{
+    background-color:transparent;
+    display: flex;
+    width: 1310px;
+    height: 105px;
+    color: white;
+}
+
+.sect-a{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    max-width: 332px;
+}
+
+.signin-up-icon-cont{
+    background-color: transparent;
+    margin-right: -60px;
+}
+.user-logo-login-cont{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.sign-link{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    width: 207px;
+    font-size:17px;
+    margin-bottom: 11px;
+    border-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signin-up-icon-cont:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.sect-b{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.login-pg-logo-cont{
+   max-width:500px;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+}
+   
+
+.login-pg-logo{
+    max-width: 19%;
+    height: auto;
+    margin-right: -70px;
+}
+    
+    
+
+.sect-c{
+
+    display: flex;
+    flex: 2;
+    justify-content:center;
+    align-items: center;
+    font-size: larger;
+    background-color: transparent;
+    max-width: 220px;
+}
+
+.login-pg-shop-link{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.login-pg-shop-link:hover{
+    background-color: white;
+    color: black;
+}
+
+.link-cont{
+    margin-right: -70px;
+}
+
+   /* this sect d...
+   this is where login cart icon is
+   */
+
+.sect-d{
+    background-color: transparent;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    max-width: 220px;
+}
+
+.login-cart-link-cont{
+ margin-right: -110px;
+ background-color:transparent;
+}
+
+.login-cart-link-cont:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.my-account-cont{
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height:110px ;
+    font-size: 28PX;
+    align-items: center;
+    margin-top: 107PX;
+    margin-bottom: 40px;
+}
+
+
+.my-account-inner-cont{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    padding: 0 20px 0 20px;
+}
+
+.login-singin-cont{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-style: none;
+    padding: 5px 5px 90px;
+    margin-right: 10px;
+    justify-content: center;
+    background-color: transparent;
+    column-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.login-cont{
+    padding: 30px 40px 40px 40px;
+    border-style: solid;
+    border-color: rgb(53, 53, 53);
+    border-width: 1px;
+    background-color: transparent;
+    margin-bottom: 35px;
+    
+}
+
+.login-username-email-cont{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 500PX;
+}
+
+.login-password-cont{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 500PX;
+}
+
+.remember-lost-password-cont{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 535PX;
+}
+
+.checkbox{
+    width: 16px;
+}
+
+.span-checkbox{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+
+a{
+    color: white;
+    font-size: 18px;
+}
+
+a:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+button{
+    width: 530PX;
+    height: 41PX;
+    background-color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    width: 530PX;
+}
+
+.login-button-cont{
+    background-color: transparent;
+    width: 500PX;
+    
+}
+
+.signin-cont{
+    padding: 30px 75px 40px 40px;
+    border-style: solid;
+    border-color: rgb(53, 53, 53);
+    border-width: 1px;
+    margin-left: px;
+   
+}
+
+input{
+    height: 30PX;
+    background-color: rgb(31, 31, 31);
+    border-style: solid;
+    border-width: 1PX;
+    width: 530PX;
+    height: 40PX;
+    border-color: rgb(53, 53, 53);
+    color: white;
+    margin-top: 7px;
+}
+
+h2{
+    font-size: x-large;
+    margin-bottom: 80px;
+}
+
+.Annotation-pg{
+    background-color: rgb(34, 34, 34);
+    border-style: none;
+    display: flex;
+    height: 200px;
+    display: flex;
+    justify-content:center ;
+}
+
+.Annotation-box{
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    align-items: center;
+   margin-right: 10px;
+   font-size: 18px;
+   flex-wrap: wrap;
+}
+
